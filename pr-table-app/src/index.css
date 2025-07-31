@@ -1,0 +1,91 @@
+
+
+.p-datatable {
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(163, 190, 188, 0.06);
+  overflow-x: auto;
+}
+
+.p-datatable-thead > tr > th {
+  background-color: #e5e7eb; 
+  color: #374151; 
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: #f3f4f6; 
+}
+
+.p-datatable .p-checkbox {
+  margin-right: 0.5rem;
+}
+
+
+.p-inputtext {
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1; 
+  border-radius: 0.5rem;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.p-inputtext:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+
+.custom-overlay-panel {
+  width: 360px;
+  max-width: 90vw;
+  padding: 1.25rem;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+.custom-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  transition: border 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+
+.custom-button {
+  width: 100%;
+  background-color: red; /* indigo-600 */
+  color: #ffffff;
+  padding: 0.625rem 1rem;
+  border: none;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #4338ca; /* indigo-700 */
+  cursor: pointer;
+}
+
+
+i:hover {
+  cursor: pointer;
+  color: #4f46e5;
+  transition: color 0.2s ease;
+}
